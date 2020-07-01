@@ -1929,6 +1929,7 @@ __webpack_require__.r(__webpack_exports__);
 
     axios.get("/notas").then(function (res) {
       _this.notas = res.data;
+      console.log(_this.notas);
     });
   },
   methods: {
@@ -49921,8 +49922,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\HP\Documents\Laravel-VueJS\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\HP\Documents\Laravel-VueJS\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\HP\Documents\AA\Laravel-VueJS\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\HP\Documents\AA\Laravel-VueJS\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

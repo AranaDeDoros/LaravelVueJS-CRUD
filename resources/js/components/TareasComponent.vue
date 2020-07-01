@@ -52,6 +52,7 @@ export default {
   created() {
     axios.get("/notas").then(res => {
       this.notas = res.data;
+      console.log(this.notas);
     });
   },
   methods: {
